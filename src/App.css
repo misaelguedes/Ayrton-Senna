@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.795);
+  padding: 10px 60px;
+  display: block;
+  margin: auto;
+}
+
+section > p {
+  font-weight: bold;
+  text-indent: 30px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+section > h1 {
+  background-image: linear-gradient(to right, #FFDC19, #FEE470);
+  font-family: 'Alkatra', cursive;
+  font-size: 2.7em;
+  color: #FB3016;
+  text-align: center;
+}
+
+section > h2 {
+  color: rgb(0, 0, 92);
+  font-family: 'Alkatra', cursive;
+  font-size: 2em;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+hr {
+  padding: 5px;
+  margin-bottom: 20px;
+}
