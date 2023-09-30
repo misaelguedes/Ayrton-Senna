@@ -1,0 +1,19 @@
+.erro {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.erro h1 {
+    font-size: 80px;
+}
+
+.erro p {
+    font-size: 30px;
+}
+
+.erro img {
+    max-width: 400px;
+}

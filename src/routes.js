@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Historia from './pages/História'
 import Recordes from './pages/Recordes'
 import Condecoracoes from './pages/Condecorações'
+import Erro from './pages/Erro'
 import Footer from './components/Footer'
 
 export default function RoutesApp() {
@@ -16,6 +17,8 @@ export default function RoutesApp() {
                 <Route path='/historia' element={<Historia/>}/>
                 <Route path='/recordes' element={<Recordes/>}/>
                 <Route path='/condecoracoes' element={<Condecoracoes/>}/>
+
+                <Route path='*' element={<Erro/>}/>
             </Routes>
             <Footer/>
         </BrowserRouter>
