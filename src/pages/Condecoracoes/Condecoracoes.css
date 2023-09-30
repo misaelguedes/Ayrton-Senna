@@ -1,0 +1,11 @@
+.condecoracoes {
+    background-image: url('../../images/senna-formula1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.condec {
+    font-weight: bold;
+    line-height: 35px;
+}
