@@ -20,3 +20,18 @@ footer > a {
 footer > a:hover {
     font-size: 1.7em;
 }
+
+@media (max-width: 768px) {
+    footer {
+        height: 100px;
+    }
+
+    footer > a {
+        font-size: 1.2em;
+        margin-top: 35px;
+    }
+    
+    footer > a:hover {
+        font-size: 1.4em;
+    }
+}

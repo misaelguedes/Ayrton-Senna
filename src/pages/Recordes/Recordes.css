@@ -21,3 +21,18 @@ th {
 td {
     background-color: white;
 }
+
+@media (max-width: 1139px) {
+    table {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+    th {
+        font-size: 1em;
+    }
+}

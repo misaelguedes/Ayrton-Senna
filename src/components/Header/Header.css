@@ -4,8 +4,13 @@ header {
     height: 130px;
     justify-content: center;
     align-items: center;
-    width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
+}
+
+#burguer {
+    color: white;
+    display: none;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.699);
 }
 
 .titulo {
@@ -32,7 +37,7 @@ header {
     margin-right: 10%;
 }
 
-.itens > a {
+.itens a {
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -41,8 +46,55 @@ header {
     transition: all ease 0.2s;
 }
 
-.itens > a:hover {
+.itens a:hover {
     color: #FFDC19;
     border-bottom: 5px solid #FEE470;
     padding-bottom: 20px;
+}
+
+@media (max-width: 1139px) {
+    header {
+        display: block;
+        height: auto;
+    }
+
+    .titulo {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+    .titulo h1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .itens {
+        display: none;
+        margin-right: 0px;
+    }
+    .itens a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #FEE470;
+    }
+
+    #burguer {
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .titulo h1 {
+        font-size: 2.7em;
+    }
+
+    .itens a {
+        font-size: 17px;
+    }
 }

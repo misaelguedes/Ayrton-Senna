@@ -24,3 +24,13 @@ ul {
     margin-left: 40px;
     margin-bottom: 15px;
 }
+
+@media (max-width: 768px) {
+    .foto1, .foto2 {
+        max-width: 80%;
+        float: none;
+        margin: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
