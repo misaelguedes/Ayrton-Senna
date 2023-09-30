@@ -1,0 +1,25 @@
+@keyframes entering {
+    from {
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.img {
+    max-width: 80%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img img {
+    max-width: 60%;
+    animation: entering 1s ease-in-out;
+}
