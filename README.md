@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+<p>
+    <img src="src/images/preview.png" alt="Prévia do Site"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🖥️ Projeto
+Este site é uma homenagem ao lendário piloto de Fórmula 1, Ayrton Senna. Aqui você encontrará uma compilação abrangente da história, recordes e condecorações de um dos maiores nomes do automobilismo mundial.
 
-## Available Scripts
+## Histórias e Conquistas
+Neste site, você encontrará uma detalhada linha do tempo da carreira de Ayrton Senna, desde seus primeiros anos no kart até sua ascensão meteórica na Fórmula 1. Você poderá mergulhar em momentos icônicos, como suas vitórias em corridas lendárias, batalhas épicas com seus rivais e seus triunfos nos três campeonatos mundiais conquistados em 1988, 1990 e 1991.
 
-In the project directory, you can run:
+## Recordes e Legado
+Ayrton Senna estabeleceu vários recordes ao longo de sua carreira, muitos dos quais permanecem intactos até os dias de hoje. Aqui você encontrará uma lista abrangente desses recordes, desde os mais impressionantes nas pistas até suas contribuições significativas para a segurança no automobilismo.
 
-### `npm start`
+Além disso, o legado de Senna transcende o esporte. Ele se tornou um ícone global, inspirando milhões de pessoas em todo o mundo com sua dedicação, determinação e filantropia. Neste site, você poderá explorar como Senna continua sendo uma fonte de inspiração, não apenas para pilotos de corrida, mas também para aqueles que buscam alcançar grandes feitos em qualquer área da vida.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Atenção
+Este site é uma iniciativa independente criada por fãs de Ayrton Senna e não possui nenhuma afiliação oficial com a família de Senna ou com organizações relacionadas. Todo o conteúdo apresentado neste site é baseado em informações disponíveis publicamente e em pesquisas meticulosas para garantir sua precisão.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tecnologias Utilizadas
+Este site foi desenvolvido utilizando as seguintes tecnologias:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- ReactJS: https://react.dev/learn
+- React Router Dom: https://reactrouter.com/en/main
