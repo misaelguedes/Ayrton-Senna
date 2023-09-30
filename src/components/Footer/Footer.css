@@ -1,0 +1,22 @@
+footer {
+    background-image: linear-gradient(to bottom right, #FB3016, #2e0500);
+    height: 150px;
+    border-top: 10px solid #FFDC19;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer > a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    margin-top: 65px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.685);
+    transition: all ease 0.2s;
+}
+
+footer > a:hover {
+    font-size: 1.7em;
+}
