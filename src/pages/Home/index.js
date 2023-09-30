@@ -4,7 +4,7 @@ import AyrtonSenna from '../../images/ayrton-senna.png'
 
 export default function Home() {
     return (
-        <div>
+        <div className='home'>
             <div className='img'>
                 <img src={AyrtonSenna} alt='Ayrton Senna'/>
             </div>

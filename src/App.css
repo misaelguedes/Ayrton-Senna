@@ -7,6 +7,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url('../src/images/senna-formula1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
 section {
   background-color: rgba(255, 255, 255, 0.795);
   padding: 10px 60px;
@@ -19,6 +26,7 @@ section > p {
   text-indent: 30px;
   line-height: 25px;
   text-align: justify;
+  margin-bottom: 15px;
 }
 
 section > h1 {
@@ -27,14 +35,15 @@ section > h1 {
   font-size: 2.7em;
   color: #FB3016;
   text-align: center;
+  margin-top: 35px;
+  margin-bottom: 30px;
 }
 
 section > h2 {
   color: rgb(0, 0, 92);
   font-family: 'Alkatra', cursive;
   font-size: 2em;
-  margin-top: -5px;
-  margin-bottom: -5px;
+  margin-bottom: 10px;
 }
 
 hr {
