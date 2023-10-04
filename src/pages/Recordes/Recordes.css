@@ -30,7 +30,7 @@ td {
 
 @media (max-width: 768px) {
     table {
-        max-width: 90%;
+        max-width: 80%;
     }
     th {
         font-size: 0.9em;
