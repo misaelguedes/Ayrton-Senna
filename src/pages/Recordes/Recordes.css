@@ -24,15 +24,15 @@ td {
 
 @media (max-width: 1139px) {
     table {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
 @media (max-width: 768px) {
     table {
-        width: 100%;
+        max-width: 90%;
     }
     th {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 }
