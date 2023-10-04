@@ -17,3 +17,9 @@
 .erro img {
     max-width: 400px;
 }
+
+@media (max-width: 768px) {
+    .erro {
+        height: 100vh;
+    }
+}
